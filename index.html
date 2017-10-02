@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exo Markdown</title>
+  </head>
+  <body>
+    <h1><i>Qu'est ce que le Markdown?</i></h1>
+      <b>le pain</b><br>
+        <h1><i>Listes des syntaxes</i></h1>
+          <h1><i>Les Titres</i></h1>
+             Markdown|Apparence <br>
+             <table>
+               <tr>
+                 <td>#</td>
+                 <td>H1</td>
+               </tr>
+               <tr>
+                 <td>##</td>
+                 <td>H2</td>
+               </tr>
+               <tr>
+                 <td>###</td>
+                 <td>H3</td>
+               </tr>
+               <tr>
+                 <td>####</td>
+                 <td>H4</td>
+               </tr>
+               <tr>
+                 <td>#####</td>
+                 <td>H5</td>
+               </tr>
+               <tr>
+                 <td>######</td>
+                 <td>H6</td>
+               </tr>
+             </table>
+
+             <h3>Le code</h3>
+
+
+              Titre alternatif H2
+              -------------------- <br>
+
+              Titre alternatif H1
+              ====================
+              <br><br>
+             <h3>Résultats</h3><br>
+
+              <h2>Titre alternatif</h2>
+
+            <h1>Titre alternatif</h1>
+
+
+          <h2><i><u>Altération de carractères</u></i></h2><br>
+
+
+             <h3>Code</h3>
+
+              <p>*le texte est italique*  ou _italique_ <br>
+              **Le texte est gras** ou __gras__ <br>
+              *On peut aussi __combiner__ les deux* <br>
+              ~~Je n'ai pas écrit ça~~</p>
+              
+             <h3>Le résultat</h3>
+
+              <p>*le texte est italique* ou _italique_ <br>
+              **Le texte est gras** ou __gras__ <br>
+              *On peut aussi __combiner__ les deux* <br>
+              ~~Je n'ai pas écrit ça~~ <br></p>
+
+         <h2><i>Les listes</i></h2>
+
+             <h3>Code</h3>
+              ```
+              1. Liste ordonnée
+              2. Liste ordonnée 2
+                  1. Sous liste
+
+
+              * Liste non ordonnée
+              + Avec des plus aussi
+              - et des moins
+              ```
+             ### Résultat
+
+              1. Liste ordonnée
+              2. Liste ordonnée 2
+                  1. Sous liste
+
+
+              * Liste non ordonnée
+              + Avec des plus aussi
+              - et des moins
+
+         * ## Les liens
+
+              *(Passez la souris sur le lien pour voir le titre)*
+
+             ### Code
+              ```
+              [je suis un lien](http://lelien)
+              [je suis un lien avec un titre](http://google.com "Google")
+              ```
+             ### Résultat
+
+              [je suis un lien](http://lelien) <br>
+              [je suis un lien avec un titre](http://google.com "Google") <br>
+
+         * ## Les images
+
+              *(Passez la souris sur les images pour voir le titre)*
+
+             ### Code
+
+              ```
+              ![alttext](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 1")
+
+              ou
+
+              ![alt text][logo]
+
+              [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 2"
+              ```
+
+             ### Résultat
+
+              ![alttext](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 1")
+
+              ou
+
+              ![alt text][logo]
+
+              [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 2"
+         * ## Code et syntaxe intégrée
+
+             ### Code
+              ```
+                ```HTML
+                <h1>titre</h1>
+                <ul style="color: white; list-style-type:none">
+                  <li>j'aime</li>
+                  <li>le</li>
+                  <li>pain</li>
+                </ul>
+                <a href="http://google.com">text</a>
+                ```
+              ```
+             ### Résultat
+
+              ```HTML
+                <h1>titre</h1>
+                  <ul style="color: white; list-style-type:none">
+                    <li>j'aime</li>
+                    <li>le</li>
+                    <li>pain</li>
+                  </ul>
+                  <a href="http://google.com">text</a>
+              ```
+
+
+
+    Dans Markdown, vous pouvez choisir et changer la taille des titres, en utilisant la fonction "Header"(représenté par le sigle "#")
+
+    Voici quelques exemples :
+
+    # Titre de taille h1
+    ## Titre de taille h2
+    ### Titre de taille h3
+
+    ### Les listes non ordonnées #
+
+    Il existe trois différentes manières de faire des listes non ordonnées en Markdown, peu importe l'utilisation de code qu'on utilise le résultat sera le même dans les trois différentes facons.
+
+    #### Première facon ; l'astérisque
+
+    * On
+    * est
+    * cool
+
+    #### Deuxième facon ; le moins
+
+    - On
+    - aime
+    - le pain
+
+    #### Troisième facon ; le plus
+
+    + Et on
+    + est
+    + des gamins
+
+    ### les listes ordonnées #
+
+    Il n'existe qu'une seule facon de faire une liste ordonnée sur Markdown, il suffit de mettre le numéro suivi d'un point.
+
+    #### Les règles du fight club
+
+    1. On ne parle pas du fight club
+    2. On ne parle pas du fight club
+    3. On ne parle pas du fight club
+
+    La source : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/>
+
+    ### Un peu de citation de code :) #
+
+    ```javascript
+    /* Ceci est du jQuery !
+
+    La ligne suivante indique que le code ne se lance qu'une fois la page chargée */
+    $("document").ready(function({
+
+        // Lorsque l'on appuie sur l'élément #button ...
+        $("#button").click(function({
+            // Indiquer "Hello World" en gras dans l'élément paragraphe
+            $("p").html("<strong>Hello World !</strong>");
+        }));
+
+    })); // On oublie pas de fermer le document.ready !
+    ```
+
+    [VIEW THE README.MD](https://github.com/ThomasPnt/exercice-markdown/blob/master/README.md)
+
+    (PS : Le dernier commit a été réalisé sur PHPStorm ;) )
+
+  </body>
+</html>
