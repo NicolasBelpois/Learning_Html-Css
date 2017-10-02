@@ -110,121 +110,75 @@
             <p><a href="http://lelien">je suis un lien </a> <br>
               Je suis un lien avec un titre<a href="http://google.com"> "Google"</a> <br></p>
 
-         * ## Les images
+         <h2><i>Les images</i></h2>
 
-              *(Passez la souris sur les images pour voir le titre)*
+              <p><i>(Passez la souris sur les images pour voir le titre)</i></p>
 
-             ### Code
+            <h3>Code</h3>
 
-              ```
-              ![alttext](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 1")
+              <p>
+              ![alttext](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 1") <br>
 
-              ou
-
-              ![alt text][logo]
-
-              [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 2"
-              ```
-
-             ### Résultat
-
-              ![alttext](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 1")
-
-              ou
+              ou <br>
 
               ![alt text][logo]
 
               [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 2"
-         * ## Code et syntaxe intégrée
+            </p>
 
-             ### Code
-              ```
-                ```HTML
-                <h1>titre</h1>
-                <ul style="color: white; list-style-type:none">
-                  <li>j'aime</li>
-                  <li>le</li>
-                  <li>pain</li>
-                </ul>
-                <a href="http://google.com">text</a>
-                ```
-              ```
-             ### Résultat
+             <h3>Résultat</h3>
 
-              ```HTML
+              <p><img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" > <br>
+
+              ou <br>
+
+              <img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="Logo 2"></p>
+         <br>
+         <h2><i>Code et syntaxe intégrée</i></h2>
+
+            <h3>Code</h3>
+              <p>HTML <br>
+                &lt;h1&gt;titre&lt;/h1&gt; <br>
+                &lt;ul style="color: red; list-style-type:none"&gt;<br>
+                  &lt;li&gt;j'aime&lt;/li&gt;<br>
+                  &lt;li&gt;le&lt;/li&gt;<br>
+                  &lt;li&gt;pain&lt;/li&gt;<br>
+                &lt;/ul&gt; <br>
+                &lt;a href="http://google.com">text&lt;/a&gt;
+              </p>
+            <h3>Résultat</h3>
+
+              <p>HTML
                 <h1>titre</h1>
-                  <ul style="color: white; list-style-type:none">
+                  <ul style="color: red; list-style-type:none">
                     <li>j'aime</li>
                     <li>le</li>
                     <li>pain</li>
                   </ul>
-                  <a href="http://google.com">text</a>
-              ```
+                  <a href="http://google.com">text</a></p>
+                  <br>
 
 
+    <h3>Un peu de citation de code :)</h3>
 
-    Dans Markdown, vous pouvez choisir et changer la taille des titres, en utilisant la fonction "Header"(représenté par le sigle "#")
+    <p>javascript <br><br>
+    /* Ceci est du jQuery !<br><br>
 
-    Voici quelques exemples :
-
-    # Titre de taille h1
-    ## Titre de taille h2
-    ### Titre de taille h3
-
-    ### Les listes non ordonnées #
-
-    Il existe trois différentes manières de faire des listes non ordonnées en Markdown, peu importe l'utilisation de code qu'on utilise le résultat sera le même dans les trois différentes facons.
-
-    #### Première facon ; l'astérisque
-
-    * On
-    * est
-    * cool
-
-    #### Deuxième facon ; le moins
-
-    - On
-    - aime
-    - le pain
-
-    #### Troisième facon ; le plus
-
-    + Et on
-    + est
-    + des gamins
-
-    ### les listes ordonnées #
-
-    Il n'existe qu'une seule facon de faire une liste ordonnée sur Markdown, il suffit de mettre le numéro suivi d'un point.
-
-    #### Les règles du fight club
-
-    1. On ne parle pas du fight club
-    2. On ne parle pas du fight club
-    3. On ne parle pas du fight club
-
-    La source : <https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/>
-
-    ### Un peu de citation de code :) #
-
-    ```javascript
-    /* Ceci est du jQuery !
-
-    La ligne suivante indique que le code ne se lance qu'une fois la page chargée */
-    $("document").ready(function({
+    La ligne suivante indique que le code ne se lance qu'une fois la page chargée <br><br>  */
+    $("document").ready(function({<br>
 
         // Lorsque l'on appuie sur l'élément #button ...
-        $("#button").click(function({
+        $("#button").click(function({<br>
             // Indiquer "Hello World" en gras dans l'élément paragraphe
             $("p").html("<strong>Hello World !</strong>");
-        }));
+        }));<br>
 
     })); // On oublie pas de fermer le document.ready !
-    ```
+
 
     [VIEW THE README.MD](https://github.com/ThomasPnt/exercice-markdown/blob/master/README.md)
 
-    (PS : Le dernier commit a été réalisé sur PHPStorm ;) )
+    (PS : Le dernier commit a été réalisé sur PHPStorm ;) )</p>
 
   </body>
 </html>
