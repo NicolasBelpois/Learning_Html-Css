@@ -1,0 +1,11 @@
+.Text1{
+  width: 500px;
+  float: left;
+
+}
+.Text2{
+  text-align: left;
+  width: 700px;
+  float: right;
+
+}
