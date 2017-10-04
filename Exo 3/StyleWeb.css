@@ -12,13 +12,24 @@
   float: right;
   margin-right: 2cm;
 }
-.Barre{
+.Barre1{
+margin-top: 300px;
+  background-color: black;
+  width: 100%;
+  height: 5px;
+  border-color: grey;
+  border-style: solid;
+  bottom: 10px;
+  left: 5px;
+  right: 5px;
+  clear: both;
+}
+.Barre2{
 
   background-color: black;
   width: 100%;
   height: 5px;
   border-color: grey;
-  border-width: thick;
   border-style: solid;
   bottom: 10px;
   left: 5px;
@@ -40,6 +51,48 @@
   border-radius: 10px;
 }
 .bitseed img{
+  float:left;
+  height: 100px;
+}
+.oiseau img{
+  clear: left;
+  height: 80px;
+  border-radius: 50%;
   float: left;
-  
+}
+
+.oiseau{
+  margin-top: 10px;
+  float: left;
+}
+body {
+  background-color: #C7FF32;
+}
+.bitseed{
+  margin-top: 20px;
+}
+.sponso img{
+  padding: 80px;
+  height: 100px;
+  margin-top: 1px;
+}
+.sponso{
+  text-align: center;
+}
+.conclu{
+  margin-left: 40px;
+  float: left;
+  font-family: sans-serif;
+  text-align: justify;
+  width: 33%;
+}
+.youtube{
+  margin-right: 40px;
+  float: right;
+}
+.citation{
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
 }
