@@ -1,0 +1,53 @@
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.fond img{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+}
+.text404{
+  color: red;
+  text-align: center;
+  margin-right: 80px;
+  font-size: 200px;
+  float: right;
+  position: relative;
+  font-family: sans-serif;
+  font-family: cursive;
+}
+.pirate img{
+  width: 33%;
+  height:
+  clear: both;
+  float: left;
+  position: relative;
+}
+.text404 span{
+  color: black;
+  text-align: center;
+  float: right;
+  font-family: cursive;
+  font-family: sans-serif;
+  position: relative;
+  font-size: 40px;
+  margin-right: 80px;
+}
+.bouton{
+  border-radius: 40%;
+  margin-top: 500px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  float: right;
+  background-color: red;
+  width: 120px;
+  height: 50px;
+
+}
