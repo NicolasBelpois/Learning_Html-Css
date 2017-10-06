@@ -1,9 +1,13 @@
  .page{
   width: 780px;
-  height: 1000px;
   margin: auto;
   font-size: 16px;
   font-family: sans-serif;
+  padding: 40px;
+  border: 5px solid #3388CC;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
 }
 
 .infophoto{
@@ -22,22 +26,22 @@
 .section{
   text-align: justify;
   margin-bottom: 70px;
+  border: 2px solid red;
+  border-radius: 10px;
 }
 .sec-gauche{
-  width: 200px;
-  margin-right: 150px;
   float: left;
   font-weight: bold;
   font-size: 20px;
 }
 .sec-droite{
-  height: 395px;
   margin-left: 150px;
-  margin-bottom: 37px;
+  margin-top: 37px;
+
 }
 
 h2{
-  width: 231%;
+
   font-size: 28px;
   color: #3388BB;
   text-transform: uppercase;
@@ -52,17 +56,38 @@ h2{
   font-weight: bold;
   font-size: 20px;
 }
-#exp-gauche {
-  margin-top: 37px;
+#exp-gauche p{
+margin-bottom: 37px;
 }
 #exp-droite {
-  padding-top: 137px;
-  line-height: 18px;
+  padding-top: 30px;
 }
-#dip-gauche {
 
+#dip-gauche {
+  margin: auto;
+  line-height: 38px;
 }
+
 #dip-droite {
-  padding-top: 137px;
-  line-height: 18px;
+  margin: auto;
+  padding: 65px;
+}
+#form-gauche {
+  margin: auto;
+}
+#form-droite {
+  margin: auto;
+  padding-top: 57px;
+}
+#diver-gauche p{
+line-height: 11px;
+}
+#diver-droite {
+  margin: auto;
+  padding-top: 60px;
+  line-height: 29px;
+  padding-left: 300px;
+}
+body{
+  background-color: #CCCCCC;
 }
