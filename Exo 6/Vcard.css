@@ -1,0 +1,63 @@
+.vcard{
+
+  width: 70%;
+  height: 600px;
+  text-align: center;
+  border: 5px solid grey;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10%;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
+
+}
+body{
+
+  background-image: url("./imagev/matrix2.png");
+  background-repeat: no-repeat;
+}
+.photo img{
+
+  width: 50%;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.info-photo {
+  clear: right;
+  padding-top: 50px;
+  margin: auto;
+  border: 5px solid black;
+  width: 50%;
+  height: 200px;
+
+}
+
+.info-sociaux img{
+  width: 50px;
+  height: 50px;
+}
+
+.info-perso{
+  float: left;
+  margin-left: 43px;
+  margin-top: 50px;
+  align-self: flex-start;
+  border: 5px solid black;
+}
+
+.info-sociaux{
+
+  margin: auto;
+  border: 5px solid black;
+  width: 30%;
+}
+.info-descriptif{
+  float: right;
+  margin-right: 43px;
+  margin-top: -98px;
+  width: 220px;
+  height: 400px;
+  text-align: justify;
+  border: 5px solid black;
+}
