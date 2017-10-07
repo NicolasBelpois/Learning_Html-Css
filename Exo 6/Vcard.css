@@ -13,11 +13,11 @@
 }
 body{
 
-  background-image: url("./imagev/matrix2.png");
-  background-repeat: no-repeat;
+  background-image: url("./imagev/gifmatrix.gif");
+  
 }
 .photo img{
-
+  margin-top: 10px;
   width: 50%;
   height: 200px;
   border-radius: 50%;
@@ -25,32 +25,31 @@ body{
 }
 .info-photo {
   clear: right;
-  padding-top: 50px;
   margin: auto;
-  border: 5px solid black;
   width: 50%;
   height: 200px;
 
 }
 
 .info-sociaux img{
-  width: 50px;
-  height: 50px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 18%;
 }
 
 .info-perso{
   float: left;
   margin-left: 43px;
   margin-top: 50px;
-  align-self: flex-start;
-  border: 5px solid black;
+  line-height: 60px;
 }
 
 .info-sociaux{
 
   margin: auto;
-  border: 5px solid black;
-  width: 30%;
+  width: 100%;
+  padding-top: 85px;
 }
 .info-descriptif{
   float: right;
@@ -59,5 +58,16 @@ body{
   width: 220px;
   height: 400px;
   text-align: justify;
-  border: 5px solid black;
+}
+h4 {
+  font-size: 16px;
+  font-family: arial;
+  border: 1px solid black;
+  border-radius: 20%;
+  box-shadow: 2px 4px 3px black;
+
+
+}
+#Degrade {
+background-image:linear-gradient(#74E83A, #7A8DFF);
 }
