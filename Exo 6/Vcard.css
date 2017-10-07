@@ -14,7 +14,7 @@
 body{
 
   background-image: url("./imagev/gifmatrix.gif");
-  
+
 }
 .photo img{
   margin-top: 10px;
@@ -70,4 +70,8 @@ h4 {
 }
 #Degrade {
 background-image:linear-gradient(#74E83A, #7A8DFF);
+}
+.info-sociaux img:hover{
+  
+  box-shadow: 2px 4px 3px black;
 }
