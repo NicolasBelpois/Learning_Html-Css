@@ -1,0 +1,17 @@
+.container{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  }
+
+  p{
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Arial;
+    transform: rotateX(60deg);
+    transform: rotateX(60deg);
+    transition: transform .2s ease-in-out;
+  }
+  @keyframes starwars {
+
+  }
