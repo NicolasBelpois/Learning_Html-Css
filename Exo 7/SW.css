@@ -1,17 +1,34 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url(./image/maxresdefault.jpg);
+
+}
 .container{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  }
+  color: yellow;
+	position: absolute;
+	width: 50%;
+  height: 100vh;
+  left: 25%;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform: perspective(300px) rotateX(25deg);
+}
 
-  p{
-    font-weight: bold;
-    font-size: 36px;
-    font-family: Arial;
-    transform: rotateX(60deg);
-    transform: rotateX(60deg);
-    transition: transform .2s ease-in-out;
-  }
-  @keyframes starwars {
 
-  }
+
+.content{
+	position: absolute;
+	top: 100%;
+	animation: scroll 60s linear 1s infinite;
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+.content img{
+margin-left: 230px;
+}
