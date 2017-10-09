@@ -1,6 +1,6 @@
-#Exercice 8#
+#Exercice 8
 
-##Code utilisé :##
+##Code utilisé :
 
 Pour l'exercice 8 le code utilisé est le **HTML5** ainsi que du **CSS**.
 Mon code se compose comme indiqué dans l'exercice:
@@ -10,7 +10,7 @@ Mon code se compose comme indiqué dans l'exercice:
 3. Une Div "infoso" regroupant les informations sur les réseaux sociaux.
 4. Une Div "Infomovie" regroupant les informations sur les films préférer de notre ami Tim.
 
-##Dificultées##
+##Dificultées
 
 La dificultée récurante que j'ai pu rencontrer dans cette exercise ainsi que les autres est le positionnement **CSS**,
 je n'ai hélas pas encore réussi à comprendre comment bien superposé des éléments ou bien les alignés de facon homogène et symétrique.
