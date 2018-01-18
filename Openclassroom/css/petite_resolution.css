@@ -1,0 +1,13 @@
+@media all and (max-width: 1024px)
+{
+  .conteneur
+  {
+  flex-direction: column;
+  width: auto;
+  margin-bottom: 15px;
+  }
+  .lisiere
+  {
+    visibility: hidden;
+  }
+}

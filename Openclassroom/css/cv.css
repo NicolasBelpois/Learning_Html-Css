@@ -1,0 +1,52 @@
+
+body
+{
+  font-family: 'Saira Condensed', sans-serif;
+  background-image:url("../photo/fond.jpg");
+}
+.conteneur
+{
+  display: flex;
+
+  flex-wrap:wrap;
+}
+.header
+{
+  display: flex;
+  width: 50%;
+  height: 10%;
+  position: relative;
+  left: 35%;
+
+}
+.photo
+{
+  position: relative;
+  left: 35%;
+  bottom: 26%;
+}
+.lisiere
+{
+  border: 1px solid black;
+  height: 100vh;
+  width: 10%;
+  position: absolute;
+  border-radius: 5%;
+  background-image: url("../photo/index.jpg");
+
+}
+.form
+{
+  position: relative;
+  left: 20%;
+}
+.comp
+{
+  position: relative;
+  left: 15%;
+}
+.exp
+{
+  position: relative;
+  left: 11%;
+}
